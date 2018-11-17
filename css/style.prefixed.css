@@ -6,8 +6,10 @@ body {
   box-sizing: border-box; }
 
 .container {
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -ms-flex-direction: column;
+      flex-direction: column;
   background-color: #fff;
   width: 30%;
   height: 60vh;
@@ -24,4 +26,4 @@ body {
   .container p {
     line-height: 28px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
